@@ -1,0 +1,25 @@
+{
+    "name": "sands/laravel-presenter-pdf",
+    "description": "Laravel Presenter plugin to respond with PDF.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zulfa Juniadi bin Zulkifli",
+            "email": "zulfajuniadi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.*",
+        "barryvdh/laravel-dompdf": "0.*",
+        "sands/laravel-presenter": "1.*",
+        "illuminate/http": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sands\\Presenter\\PDF\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
